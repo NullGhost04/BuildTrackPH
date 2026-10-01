@@ -1,0 +1,2346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="BuildTrackPH - Construction project monitoring, material tracking, daily accomplishment records and stakeholder management for Philippine contractors.">
+
+    <title>BuildTrackPH | Construction Project Management Philippines</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =========================================================
+     NAVIGATION
+========================================================= -->
+
+<header class="navbar">
+
+    <div class="container nav-container">
+
+        <a href="#home" class="logo" onclick="showPage('home')">
+            <span class="logo-icon">BT</span>
+            <span>
+                <strong>BuildTrack</strong><small>PH</small>
+            </span>
+        </a>
+
+        <nav id="mainNav">
+
+            <a href="#home" onclick="showPage('home')">Home</a>
+
+            <a href="#services" onclick="showPage('services')">
+                Services
+            </a>
+
+            <a href="#pricing" onclick="showPage('pricing')">
+                Pricing
+            </a>
+
+            <a href="#portfolio" onclick="showPage('portfolio')">
+                Projects
+            </a>
+
+            <a href="#reviews" onclick="showPage('reviews')">
+                Reviews
+            </a>
+
+            <a href="#about" onclick="showPage('about')">
+                About
+            </a>
+
+            <a href="#faq" onclick="showPage('faq')">
+                FAQ
+            </a>
+
+            <a href="#contact" onclick="showPage('contact')">
+                Contact
+            </a>
+
+        </nav>
+
+        <div class="nav-actions">
+
+            <button class="btn btn-outline"
+                    onclick="openLogin()">
+                Client Login
+            </button>
+
+            <button class="btn btn-primary"
+                    onclick="openBooking()">
+                Book Demo
+            </button>
+
+        </div>
+
+        <button class="hamburger"
+                onclick="toggleMobileMenu()">
+            ☰
+        </button>
+
+    </div>
+
+</header>
+
+
+<!-- =========================================================
+     MAIN WEBSITE
+========================================================= -->
+
+<main>
+
+<!-- =========================================================
+     HOME
+========================================================= -->
+
+<section id="home" class="page active">
+
+    <section class="hero">
+
+        <div class="container hero-grid">
+
+            <div class="hero-content">
+
+                <div class="eyebrow">
+                    🇵🇭 BUILT FOR PHILIPPINE CONSTRUCTION
+                </div>
+
+                <h1>
+                    Streamline Philippine Construction
+                    Projects from
+                    <span>Foundation to Finish.</span>
+                </h1>
+
+                <p class="hero-text">
+                    BuildTrackPH gives contractors, engineers,
+                    developers and project managers one platform
+                    to monitor progress, materials, schedules,
+                    daily accomplishment records and stakeholders.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <button class="btn btn-primary btn-large"
+                            onclick="openBooking()">
+                        Book a Free Demo →
+                    </button>
+
+                    <button class="btn btn-outline btn-large"
+                            onclick="showPage('pricing')">
+                        View Pricing
+                    </button>
+
+                </div>
+
+                <div class="hero-trust">
+
+                    <span>✓ Mobile Ready</span>
+                    <span>✓ Philippine-Based</span>
+                    <span>✓ Free Onboarding</span>
+
+                </div>
+
+            </div>
+
+
+            <!-- DASHBOARD MOCKUP -->
+
+            <div class="dashboard-preview">
+
+                <div class="dashboard-top">
+
+                    <span class="window-dot red"></span>
+                    <span class="window-dot yellow"></span>
+                    <span class="window-dot green"></span>
+
+                </div>
+
+                <div class="mock-dashboard">
+
+                    <aside>
+
+                        <div class="mock-logo">
+                            BuildTrack<span>PH</span>
+                        </div>
+
+                        <div class="mock-menu active">
+                            Dashboard
+                        </div>
+
+                        <div class="mock-menu">
+                            Projects
+                        </div>
+
+                        <div class="mock-menu">
+                            Materials
+                        </div>
+
+                        <div class="mock-menu">
+                            Daily Reports
+                        </div>
+
+                        <div class="mock-menu">
+                            Messages
+                        </div>
+
+                    </aside>
+
+                    <div class="mock-main">
+
+                        <div class="mock-header">
+                            <div>
+                                <small>PROJECT OVERVIEW</small>
+                                <h3>Bulacan Residential Development</h3>
+                            </div>
+
+                            <span class="status-badge">
+                                ON TRACK
+                            </span>
+                        </div>
+
+                        <div class="mock-stats">
+
+                            <div>
+                                <small>Overall Progress</small>
+                                <strong>72%</strong>
+                            </div>
+
+                            <div>
+                                <small>Budget Used</small>
+                                <strong>68%</strong>
+                            </div>
+
+                            <div>
+                                <small>Materials</small>
+                                <strong>84%</strong>
+                            </div>
+
+                        </div>
+
+                        <div class="progress-card">
+
+                            <div class="progress-title">
+                                <span>Construction Progress</span>
+                                <strong>72%</strong>
+                            </div>
+
+                            <div class="progress">
+                                <div style="width:72%"></div>
+                            </div>
+
+                            <div class="chart-lines">
+
+                                <div style="height:40%"></div>
+                                <div style="height:55%"></div>
+                                <div style="height:48%"></div>
+                                <div style="height:70%"></div>
+                                <div style="height:62%"></div>
+                                <div style="height:82%"></div>
+                                <div style="height:72%"></div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- BENEFITS -->
+
+    <section class="section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span class="eyebrow">WHY BUILDTRACKPH</span>
+
+                <h2>
+                    Built around the realities of
+                    Philippine construction
+                </h2>
+
+                <p>
+                    Replace spreadsheets, scattered messages and
+                    paper reports with one centralized project system.
+                </p>
+
+            </div>
+
+            <div class="benefit-grid">
+
+                <div class="benefit-card">
+
+                    <div class="benefit-icon">📈</div>
+
+                    <h3>Reduce Project Delays</h3>
+
+                    <p>
+                        Track milestones, schedules and daily
+                        accomplishments before small delays become
+                        major problems.
+                    </p>
+
+                </div>
+
+                <div class="benefit-card">
+
+                    <div class="benefit-icon">💰</div>
+
+                    <h3>Control Project Costs</h3>
+
+                    <p>
+                        Monitor materials and allocations to identify
+                        shortages, waste and potential scope creep.
+                    </p>
+
+                </div>
+
+                <div class="benefit-card">
+
+                    <div class="benefit-icon">📋</div>
+
+                    <h3>Stay Organized</h3>
+
+                    <p>
+                        Keep daily accomplishment records,
+                        documents and project updates in one place.
+                    </p>
+
+                </div>
+
+                <div class="benefit-card">
+
+                    <div class="benefit-icon">🤝</div>
+
+                    <h3>Improve Transparency</h3>
+
+                    <p>
+                        Give owners, engineers, contractors and
+                        stakeholders access to the same project data.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FEATURED SERVICES -->
+
+    <section class="section section-gray">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span class="eyebrow">PLATFORM</span>
+
+                <h2>Everything your project team needs</h2>
+
+            </div>
+
+            <div class="service-grid">
+
+                <div class="service-card">
+
+                    <div class="service-icon">📊</div>
+
+                    <h3>Progress Monitoring</h3>
+
+                    <p>
+                        Track project milestones, schedules,
+                        accomplishment percentages and site updates.
+                    </p>
+
+                    <button onclick="openBooking('Progress Monitoring')">
+                        Learn More →
+                    </button>
+
+                </div>
+
+                <div class="service-card">
+
+                    <div class="service-icon">🧱</div>
+
+                    <h3>Material Tracking</h3>
+
+                    <p>
+                        Monitor cement, steel, hardware and other
+                        construction materials.
+                    </p>
+
+                    <button onclick="openBooking('Material Tracking')">
+                        Learn More →
+                    </button>
+
+                </div>
+
+                <div class="service-card">
+
+                    <div class="service-icon">📝</div>
+
+                    <h3>Daily Accomplishment Records</h3>
+
+                    <p>
+                        Give foremen an easy mobile form for weather,
+                        manpower and completed tasks.
+                    </p>
+
+                    <button onclick="openBooking('Daily Accomplishment Records')">
+                        Learn More →
+                    </button>
+
+                </div>
+
+                <div class="service-card">
+
+                    <div class="service-icon">💬</div>
+
+                    <h3>Stakeholder Collaboration</h3>
+
+                    <p>
+                        Centralize communication between engineers,
+                        contractors, owners and project stakeholders.
+                    </p>
+
+                    <button onclick="openBooking('Stakeholder Collaboration')">
+                        Learn More →
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CTA -->
+
+    <section class="cta-section">
+
+        <div class="container cta-content">
+
+            <div>
+
+                <span class="eyebrow">
+                    READY TO DIGITALIZE YOUR PROJECT?
+                </span>
+
+                <h2>
+                    Stop managing construction
+                    through spreadsheets alone.
+                </h2>
+
+                <p>
+                    See how BuildTrackPH can organize your
+                    next project.
+                </p>
+
+            </div>
+
+            <button class="btn btn-light btn-large"
+                    onclick="openBooking()">
+                Book a Free Demo →
+            </button>
+
+        </div>
+
+    </section>
+
+</section>
+
+
+<!-- =========================================================
+     SERVICES
+========================================================= -->
+
+<section id="services" class="page">
+
+    <div class="page-header">
+
+        <div class="container">
+
+            <span class="eyebrow">BUILDTRACKPH PLATFORM</span>
+
+            <h1>Construction management without the chaos.</h1>
+
+            <p>
+                A practical digital platform for contractors,
+                engineering firms, developers and project teams.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="container section">
+
+        <div class="feature-list">
+
+            <article class="feature-row">
+
+                <div class="feature-number">01</div>
+
+                <div>
+
+                    <h2>Construction Progress Monitoring</h2>
+
+                    <p>
+                        Monitor project accomplishment, milestones,
+                        schedules and site updates from one dashboard.
+                    </p>
+
+                    <ul>
+                        <li>Project progress percentages</li>
+                        <li>Milestone tracking</li>
+                        <li>Schedule monitoring</li>
+                        <li>Photo/site updates</li>
+                        <li>Gantt-style schedule visualization</li>
+                    </ul>
+
+                    <button class="btn btn-primary"
+                            onclick="openBooking('Progress Monitoring')">
+                        Request Demo
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <article class="feature-row">
+
+                <div class="feature-number">02</div>
+
+                <div>
+
+                    <h2>Material & Inventory Tracking</h2>
+
+                    <p>
+                        Know what arrived, what was allocated and
+                        what remains available.
+                    </p>
+
+                    <ul>
+                        <li>Cement tracking</li>
+                        <li>Steel/rebar tracking</li>
+                        <li>Hardware inventory</li>
+                        <li>Delivery records</li>
+                        <li>Allocation monitoring</li>
+                    </ul>
+
+                    <button class="btn btn-primary"
+                            onclick="openBooking('Material Tracking')">
+                        Request Demo
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <article class="feature-row">
+
+                <div class="feature-number">03</div>
+
+                <div>
+
+                    <h2>Daily Accomplishment Records</h2>
+
+                    <p>
+                        Field personnel can submit daily records
+                        directly from a mobile phone.
+                    </p>
+
+                    <ul>
+                        <li>Weather conditions</li>
+                        <li>Manpower records</li>
+                        <li>Completed activities</li>
+                        <li>Equipment records</li>
+                        <li>Daily notes</li>
+                    </ul>
+
+                    <button class="btn btn-primary"
+                            onclick="openBooking('Daily Accomplishment Records')">
+                        Request Demo
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <article class="feature-row">
+
+                <div class="feature-number">04</div>
+
+                <div>
+
+                    <h2>Stakeholder Communication</h2>
+
+                    <p>
+                        Keep project communication organized and
+                        connected to the project.
+                    </p>
+
+                    <ul>
+                        <li>Engineer communication</li>
+                        <li>Contractor updates</li>
+                        <li>Client messages</li>
+                        <li>LGU coordination records</li>
+                        <li>Project notifications</li>
+                    </ul>
+
+                    <button class="btn btn-primary"
+                            onclick="openBooking('Stakeholder Collaboration')">
+                        Request Demo
+                    </button>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     PRICING
+========================================================= -->
+
+<section id="pricing" class="page">
+
+    <div class="page-header">
+
+        <div class="container">
+
+            <span class="eyebrow">SIMPLE PRICING</span>
+
+            <h1>Choose the plan that fits your firm.</h1>
+
+            <p>
+                Start small and scale as your construction
+                portfolio grows.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="container section">
+
+        <div class="billing-toggle">
+
+            <button id="monthlyBtn"
+                    class="active"
+                    onclick="setBilling('monthly')">
+                Monthly
+            </button>
+
+            <button id="annualBtn"
+                    onclick="setBilling('annual')">
+                Annual
+            </button>
+
+            <span>
+                Save 20% / 2 Months Free
+            </span>
+
+        </div>
+
+
+        <div class="pricing-grid">
+
+
+            <!-- STARTER -->
+
+            <div class="pricing-card">
+
+                <div class="plan-label">
+                    STARTER
+                </div>
+
+                <h2>Small Contractor</h2>
+
+                <p>
+                    For small teams starting their digital journey.
+                </p>
+
+                <div class="price">
+
+                    <span>₱</span>
+
+                    <strong id="starterPrice">
+                        1,200
+                    </strong>
+
+                    <small>/month</small>
+
+                </div>
+
+                <button class="btn btn-primary full"
+                        onclick="choosePlan('Starter',1200)">
+                    Choose Plan
+                </button>
+
+                <ul class="pricing-list">
+
+                    <li>✓ Up to 3 active projects</li>
+                    <li>✓ Basic DAR</li>
+                    <li>✓ Material logs</li>
+                    <li>✓ Project dashboard</li>
+                    <li>✓ Email support</li>
+                    <li>✓ Mobile responsive</li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- PROFESSIONAL -->
+
+            <div class="pricing-card popular">
+
+                <div class="popular-label">
+                    MOST POPULAR
+                </div>
+
+                <div class="plan-label">
+                    PROFESSIONAL
+                </div>
+
+                <h2>Growing Firm</h2>
+
+                <p>
+                    For established contractors and engineering firms.
+                </p>
+
+                <div class="price">
+
+                    <span>₱</span>
+
+                    <strong id="professionalPrice">
+                        2,500
+                    </strong>
+
+                    <small>/month</small>
+
+                </div>
+
+                <button class="btn btn-primary full"
+                        onclick="choosePlan('Professional',2500)">
+                    Choose Plan
+                </button>
+
+                <ul class="pricing-list">
+
+                    <li>✓ Up to 10 active projects</li>
+                    <li>✓ Advanced schedules</li>
+                    <li>✓ LGU compliance reports</li>
+                    <li>✓ Advanced material tracking</li>
+                    <li>✓ Priority support</li>
+                    <li>✓ Team management</li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- ENTERPRISE -->
+
+            <div class="pricing-card">
+
+                <div class="plan-label">
+                    ENTERPRISE
+                </div>
+
+                <h2>Developer</h2>
+
+                <p>
+                    For developers and larger project organizations.
+                </p>
+
+                <div class="price">
+
+                    <span>₱</span>
+
+                    <strong id="enterprisePrice">
+                        5,000+
+                    </strong>
+
+                    <small>/month</small>
+
+                </div>
+
+                <button class="btn btn-primary full"
+                        onclick="choosePlan('Enterprise',5000)">
+                    Request Quote
+                </button>
+
+                <ul class="pricing-list">
+
+                    <li>✓ Unlimited projects</li>
+                    <li>✓ Dedicated account manager</li>
+                    <li>✓ API access</li>
+                    <li>✓ Advanced roles</li>
+                    <li>✓ Custom reporting</li>
+                    <li>✓ Priority support</li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+
+        <div class="pricing-perks">
+
+            <div>🎓 Free onboarding workshop</div>
+            <div>📦 Data migration assistance</div>
+            <div>📞 Dedicated support</div>
+            <div>🔐 Secure account access</div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     PORTFOLIO
+========================================================= -->
+
+<section id="portfolio" class="page">
+
+    <div class="page-header">
+
+        <div class="container">
+
+            <span class="eyebrow">PROJECT PORTFOLIO</span>
+
+            <h1>Projects tracked with BuildTrackPH.</h1>
+
+            <p>
+                A sample portfolio demonstrating how project
+                progress can be visualized.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="container section">
+
+        <div class="filter-buttons">
+
+            <button class="active"
+                    onclick="filterProjects('all',this)">
+                All
+            </button>
+
+            <button onclick="filterProjects('residential',this)">
+                Residential
+            </button>
+
+            <button onclick="filterProjects('lgu',this)">
+                LGU Infrastructure
+            </button>
+
+            <button onclick="filterProjects('commercial',this)">
+                Commercial
+            </button>
+
+        </div>
+
+
+        <div class="portfolio-grid">
+
+            <article class="project-card"
+                     data-category="residential">
+
+                <div class="project-image residential-bg">
+                    🏘️
+                </div>
+
+                <div class="project-info">
+
+                    <span>RESIDENTIAL</span>
+
+                    <h3>Bulacan Residential Development</h3>
+
+                    <p>
+                        72% construction progress
+                    </p>
+
+                    <div class="progress">
+                        <div style="width:72%"></div>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <article class="project-card"
+                     data-category="lgu">
+
+                <div class="project-image lgu-bg">
+                    🏛️
+                </div>
+
+                <div class="project-info">
+
+                    <span>LGU INFRASTRUCTURE</span>
+
+                    <h3>Central Luzon Road Improvement</h3>
+
+                    <p>
+                        84% construction progress
+                    </p>
+
+                    <div class="progress">
+                        <div style="width:84%"></div>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <article class="project-card"
+                     data-category="commercial">
+
+                <div class="project-image commercial-bg">
+                    🏢
+                </div>
+
+                <div class="project-info">
+
+                    <span>COMMERCIAL</span>
+
+                    <h3>Metro Manila Commercial Fit-out</h3>
+
+                    <p>
+                        61% construction progress
+                    </p>
+
+                    <div class="progress">
+                        <div style="width:61%"></div>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <article class="project-card"
+                     data-category="residential">
+
+                <div class="project-image subdivision-bg">
+                    🏠
+                </div>
+
+                <div class="project-info">
+
+                    <span>RESIDENTIAL</span>
+
+                    <h3>Pampanga Housing Project</h3>
+
+                    <p>
+                        93% construction progress
+                    </p>
+
+                    <div class="progress">
+                        <div style="width:93%"></div>
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     REVIEWS
+========================================================= -->
+
+<section id="reviews" class="page">
+
+    <div class="page-header">
+
+        <div class="container">
+
+            <span class="eyebrow">CUSTOMER STORIES</span>
+
+            <h1>What project teams say.</h1>
+
+        </div>
+
+    </div>
+
+
+    <div class="container section">
+
+        <div class="review-grid">
+
+            <article class="review-card">
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    "BuildTrackPH gave our team a much clearer
+                    picture of what was happening on site."
+                </p>
+
+                <strong>
+                    — Project Engineer
+                </strong>
+
+                <span>
+                    Bulacan Contractor
+                </span>
+
+            </article>
+
+
+            <article class="review-card">
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    "Our foremen can submit their daily reports
+                    using their phones without complicated software."
+                </p>
+
+                <strong>
+                    — General Contractor
+                </strong>
+
+                <span>
+                    Central Luzon
+                </span>
+
+            </article>
+
+
+            <article class="review-card">
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    "Having material records and progress information
+                    together makes coordination much easier."
+                </p>
+
+                <strong>
+                    — Construction Manager
+                </strong>
+
+                <span>
+                    Metro Manila
+                </span>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     ABOUT
+========================================================= -->
+
+<section id="about" class="page">
+
+    <div class="page-header">
+
+        <div class="container">
+
+            <span class="eyebrow">ABOUT BUILDTRACKPH</span>
+
+            <h1>Digital tools for Philippine construction.</h1>
+
+            <p>
+                BuildTrackPH is designed around the needs of
+                Philippine construction teams.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="container section">
+
+        <div class="about-grid">
+
+            <div>
+
+                <h2>Our Mission</h2>
+
+                <p>
+                    To empower micro, small and medium construction
+                    businesses with affordable digital tools that
+                    make project management more transparent,
+                    organized and efficient.
+                </p>
+
+                <p>
+                    From residential projects to commercial
+                    developments and infrastructure work, BuildTrackPH
+                    provides a centralized digital workspace.
+                </p>
+
+            </div>
+
+            <div class="values-card">
+
+                <h3>Our Core Values</h3>
+
+                <div>
+                    <strong>Transparency</strong>
+                    <span>Clear project information.</span>
+                </div>
+
+                <div>
+                    <strong>Reliability</strong>
+                    <span>Dependable project records.</span>
+                </div>
+
+                <div>
+                    <strong>Efficiency</strong>
+                    <span>Less paperwork, better coordination.</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="owner-card">
+
+            <div class="owner-avatar">
+                AP
+            </div>
+
+            <div>
+
+                <span class="eyebrow">
+                    FOUNDER & OWNER
+                </span>
+
+                <h2>Angel Peralta</h2>
+
+                <p>
+                    Owner and administrator of BuildTrackPH.
+                    Responsible for business operations,
+                    customer management and platform administration.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     FAQ
+========================================================= -->
+
+<section id="faq" class="page">
+
+    <div class="page-header">
+
+        <div class="container">
+
+            <span class="eyebrow">FAQ</span>
+
+            <h1>Frequently asked questions.</h1>
+
+        </div>
+
+    </div>
+
+
+    <div class="container section faq-container">
+
+        <div class="faq-item">
+
+            <button onclick="toggleFAQ(this)">
+                How much does BuildTrackPH cost?
+                <span>+</span>
+            </button>
+
+            <div class="faq-answer">
+
+                <p>
+                    Plans are designed around Philippine MSME
+                    construction budgets, beginning around ₱1,200
+                    per month for the Starter plan and ₱2,500 per
+                    month for Professional.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="faq-item">
+
+            <button onclick="toggleFAQ(this)">
+                Can field foremen use BuildTrackPH on their phones?
+                <span>+</span>
+            </button>
+
+            <div class="faq-answer">
+
+                <p>
+                    Yes. The website is responsive and Daily
+                    Accomplishment Records are designed for mobile
+                    field use.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="faq-item">
+
+            <button onclick="toggleFAQ(this)">
+                What payment methods are supported?
+                <span>+</span>
+            </button>
+
+            <div class="faq-answer">
+
+                <p>
+                    The demo checkout supports simulated GCash,
+                    Maya, GrabPay, BDO, BPI, LandBank, Metrobank,
+                    UnionBank and credit/debit cards.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="faq-item">
+
+            <button onclick="toggleFAQ(this)">
+                How long does onboarding take?
+                <span>+</span>
+            </button>
+
+            <div class="faq-answer">
+
+                <p>
+                    Standard onboarding is designed to begin within
+                    24 hours and includes an introductory training
+                    session.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="faq-item">
+
+            <button onclick="toggleFAQ(this)">
+                Can I cancel my subscription?
+                <span>+</span>
+            </button>
+
+            <div class="faq-answer">
+
+                <p>
+                    Subscription cancellation and refund conditions
+                    are governed by the applicable BuildTrackPH
+                    terms and subscription agreement.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     CONTACT
+========================================================= -->
+
+<section id="contact" class="page">
+
+    <div class="page-header">
+
+        <div class="container">
+
+            <span class="eyebrow">CONTACT US</span>
+
+            <h1>Let's talk about your project.</h1>
+
+            <p>
+                Tell us what you're building and we'll help you
+                determine the right BuildTrackPH setup.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="container section contact-grid">
+
+        <div class="contact-info">
+
+            <h2>BuildTrackPH</h2>
+
+            <p>
+                Construction project management technology
+                for Philippine businesses.
+            </p>
+
+            <div class="contact-detail">
+                📍 Metro Manila / Central Luzon, Philippines
+            </div>
+
+            <div class="contact-detail">
+                📞 +63 900 000 0000
+            </div>
+
+            <div class="contact-detail">
+                ✉️ hello@buildtrackph.com
+            </div>
+
+            <div class="contact-detail">
+                🕘 Monday – Saturday, 8:00 AM – 6:00 PM
+            </div>
+
+        </div>
+
+
+        <form class="contact-form"
+              onsubmit="submitContact(event)">
+
+            <input id="contactName"
+                   type="text"
+                   placeholder="Full Name"
+                   required>
+
+            <input id="contactCompany"
+                   type="text"
+                   placeholder="Company">
+
+            <input id="contactEmail"
+                   type="email"
+                   placeholder="Email"
+                   required>
+
+            <input id="contactPhone"
+                   type="tel"
+                   placeholder="Phone Number">
+
+            <select id="contactProject">
+
+                <option value="">
+                    Project Size
+                </option>
+
+                <option>
+                    Small Residential
+                </option>
+
+                <option>
+                    Commercial
+                </option>
+
+                <option>
+                    Infrastructure
+                </option>
+
+                <option>
+                    Large Development
+                </option>
+
+            </select>
+
+            <textarea id="contactMessage"
+                      placeholder="Tell us about your project..."
+                      required></textarea>
+
+            <button class="btn btn-primary">
+                Send Inquiry
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     CLIENT DASHBOARD
+========================================================= -->
+
+<section id="clientDashboard" class="page dashboard-page">
+
+    <div class="container section">
+
+        <div class="dashboard-heading">
+
+            <div>
+
+                <span class="eyebrow">
+                    CLIENT DASHBOARD
+                </span>
+
+                <h1>Welcome to BuildTrackPH</h1>
+
+            </div>
+
+            <button class="btn btn-outline"
+                    onclick="showPage('home')">
+                Exit Dashboard
+            </button>
+
+        </div>
+
+
+        <div class="dashboard-stats">
+
+            <div class="dash-stat">
+                <span>Active Projects</span>
+                <strong>3</strong>
+            </div>
+
+            <div class="dash-stat">
+                <span>Overall Progress</span>
+                <strong>72%</strong>
+            </div>
+
+            <div class="dash-stat">
+                <span>Pending Invoice</span>
+                <strong>₱48,500</strong>
+            </div>
+
+            <div class="dash-stat">
+                <span>Messages</span>
+                <strong id="messageCount">
+                    4
+                </strong>
+            </div>
+
+        </div>
+
+
+        <div class="dashboard-panels">
+
+            <div class="panel">
+
+                <div class="panel-heading">
+
+                    <h3>Active Projects</h3>
+
+                    <span class="status-badge">
+                        LIVE
+                    </span>
+
+                </div>
+
+                <div class="project-row">
+
+                    <div>
+                        <strong>
+                            Bulacan Residential Development
+                        </strong>
+
+                        <small>
+                            Foundation → Structural
+                        </small>
+                    </div>
+
+                    <strong>72%</strong>
+
+                </div>
+
+                <div class="progress">
+                    <div style="width:72%"></div>
+                </div>
+
+
+                <div class="project-row">
+
+                    <div>
+                        <strong>
+                            Pampanga Housing Project
+                        </strong>
+
+                        <small>
+                            Finishing Works
+                        </small>
+                    </div>
+
+                    <strong>93%</strong>
+
+                </div>
+
+                <div class="progress">
+                    <div style="width:93%"></div>
+                </div>
+
+
+                <div class="project-row">
+
+                    <div>
+                        <strong>
+                            Metro Manila Fit-out
+                        </strong>
+
+                        <small>
+                            Interior Works
+                        </small>
+                    </div>
+
+                    <strong>61%</strong>
+
+                </div>
+
+                <div class="progress">
+                    <div style="width:61%"></div>
+                </div>
+
+            </div>
+
+
+            <div class="panel">
+
+                <div class="panel-heading">
+
+                    <h3>Recent Updates</h3>
+
+                </div>
+
+                <div class="timeline">
+
+                    <div>
+                        <strong>Daily report submitted</strong>
+                        <small>Today, 4:20 PM</small>
+                    </div>
+
+                    <div>
+                        <strong>Steel delivery recorded</strong>
+                        <small>Today, 11:30 AM</small>
+                    </div>
+
+                    <div>
+                        <strong>Schedule updated</strong>
+                        <small>Yesterday</small>
+                    </div>
+
+                    <div>
+                        <strong>Invoice generated</strong>
+                        <small>Sept 29</small>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     ADMIN DASHBOARD
+========================================================= -->
+
+<section id="adminDashboard" class="page dashboard-page">
+
+    <div class="container section">
+
+        <div class="dashboard-heading">
+
+            <div>
+
+                <span class="eyebrow">
+                    ADMIN CONTROL CENTER
+                </span>
+
+                <h1>BuildTrackPH Administration</h1>
+
+                <p>
+                    Owner: <strong>Angel Peralta</strong>
+                </p>
+
+            </div>
+
+            <button class="btn btn-outline"
+                    onclick="showPage('home')">
+                Exit Admin
+            </button>
+
+        </div>
+
+
+        <div class="dashboard-stats">
+
+            <div class="dash-stat">
+                <span>Total Bookings</span>
+                <strong id="adminBookings">
+                    0
+                </strong>
+            </div>
+
+            <div class="dash-stat">
+                <span>Customers</span>
+                <strong id="adminCustomers">
+                    0
+                </strong>
+            </div>
+
+            <div class="dash-stat">
+                <span>Transactions</span>
+                <strong id="adminTransactions">
+                    0
+                </strong>
+            </div>
+
+            <div class="dash-stat">
+                <span>Revenue</span>
+                <strong id="adminRevenue">
+                    ₱0
+                </strong>
+            </div>
+
+        </div>
+
+
+        <div class="admin-tabs">
+
+            <button class="active"
+                    onclick="adminTab('bookings',this)">
+                Bookings
+            </button>
+
+            <button onclick="adminTab('payments',this)">
+                Payments
+            </button>
+
+            <button onclick="adminTab('customers',this)">
+                Customers
+            </button>
+
+            <button onclick="adminTab('messages',this)">
+                Messages
+            </button>
+
+        </div>
+
+
+        <div id="adminBookingsPanel"
+             class="admin-panel">
+
+            <div class="panel">
+
+                <div class="panel-heading">
+
+                    <h3>Booking Management</h3>
+
+                    <button class="btn btn-primary"
+                            onclick="openBooking()">
+                        + New Booking
+                    </button>
+
+                </div>
+
+                <div id="bookingTable"></div>
+
+            </div>
+
+        </div>
+
+
+        <div id="adminPaymentsPanel"
+             class="admin-panel hidden">
+
+            <div class="panel">
+
+                <div class="panel-heading">
+                    <h3>Payment Transactions</h3>
+                </div>
+
+                <div id="paymentTable"></div>
+
+            </div>
+
+        </div>
+
+
+        <div id="adminCustomersPanel"
+             class="admin-panel hidden">
+
+            <div class="panel">
+
+                <div class="panel-heading">
+                    <h3>Customers</h3>
+                </div>
+
+                <div id="customerTable"></div>
+
+            </div>
+
+        </div>
+
+
+        <div id="adminMessagesPanel"
+             class="admin-panel hidden">
+
+            <div class="panel">
+
+                <div class="panel-heading">
+                    <h3>Contact Messages</h3>
+                </div>
+
+                <div id="messageTable"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<footer>
+
+    <div class="container footer-grid">
+
+        <div>
+
+            <div class="logo footer-logo">
+
+                <span class="logo-icon">
+                    BT
+                </span>
+
+                <span>
+                    <strong>BuildTrack</strong>
+                    <small>PH</small>
+                </span>
+
+            </div>
+
+            <p>
+                Digital construction management
+                built for the Philippines.
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <h4>Platform</h4>
+
+            <a onclick="showPage('services')">
+                Services
+            </a>
+
+            <a onclick="showPage('pricing')">
+                Pricing
+            </a>
+
+            <a onclick="showPage('portfolio')">
+                Projects
+            </a>
+
+            <a onclick="showPage('faq')">
+                FAQ
+            </a>
+
+        </div>
+
+
+        <div>
+
+            <h4>Company</h4>
+
+            <a onclick="showPage('about')">
+                About
+            </a>
+
+            <a onclick="showPage('reviews')">
+                Reviews
+            </a>
+
+            <a onclick="showPage('contact')">
+                Contact
+            </a>
+
+            <a onclick="showPrivacy()">
+                Privacy Policy
+            </a>
+
+        </div>
+
+
+        <div>
+
+            <h4>Newsletter</h4>
+
+            <p>
+                Construction tips and BuildTrackPH updates.
+            </p>
+
+            <form onsubmit="subscribeNewsletter(event)"
+                  class="newsletter">
+
+                <input id="newsletterEmail"
+                       type="email"
+                       placeholder="Your email"
+                       required>
+
+                <button>→</button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <div class="container">
+
+            <span>
+                © 2026 BuildTrackPH. All rights reserved.
+            </span>
+
+            <span>
+                Data Privacy Act of 2012 • Secure Platform
+            </span>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- =========================================================
+     FLOATING CHAT
+========================================================= -->
+
+<div class="chat-button"
+     onclick="toggleChat()">
+    💬
+</div>
+
+
+<div id="chatBox"
+     class="chat-box">
+
+    <div class="chat-header">
+
+        <strong>BuildTrackPH Support</strong>
+
+        <button onclick="toggleChat()">
+            ×
+        </button>
+
+    </div>
+
+    <div id="chatMessages"
+         class="chat-messages">
+
+        <div class="chat-bot">
+            Hi! 👋 How can we help you today?
+        </div>
+
+    </div>
+
+    <form onsubmit="sendChat(event)"
+          class="chat-input">
+
+        <input id="chatInput"
+               placeholder="Type a message..."
+               required>
+
+        <button>➤</button>
+
+    </form>
+
+</div>
+
+
+<!-- =========================================================
+     BOOKING MODAL
+========================================================= -->
+
+<div id="bookingModal"
+     class="modal">
+
+    <div class="modal-content">
+
+        <button class="modal-close"
+                onclick="closeModal('bookingModal')">
+            ×
+        </button>
+
+        <div class="modal-heading">
+
+            <span class="eyebrow">
+                BOOK A DEMO / SERVICE
+            </span>
+
+            <h2>Tell us about your project</h2>
+
+        </div>
+
+        <form onsubmit="submitBooking(event)"
+              id="bookingForm">
+
+            <label>
+                Service
+
+                <select id="bookingService"
+                        required>
+
+                    <option value="">
+                        Select service
+                    </option>
+
+                    <option>
+                        Progress Monitoring
+                    </option>
+
+                    <option>
+                        Material Tracking
+                    </option>
+
+                    <option>
+                        Daily Accomplishment Records
+                    </option>
+
+                    <option>
+                        Stakeholder Collaboration
+                    </option>
+
+                    <option>
+                        Complete BuildTrackPH Setup
+                    </option>
+
+                </select>
+
+            </label>
+
+
+            <div class="form-row">
+
+                <label>
+                    Date
+
+                    <input id="bookingDate"
+                           type="date"
+                           required>
+                </label>
+
+                <label>
+                    Time
+
+                    <select id="bookingTime"
+                            required>
+
+                        <option>9:00 AM</option>
+                        <option>10:00 AM</option>
+                        <option>11:00 AM</option>
+                        <option>1:00 PM</option>
+                        <option>2:00 PM</option>
+                        <option>3:00 PM</option>
+                        <option>4:00 PM</option>
+
+                    </select>
+
+                </label>
+
+            </div>
+
+
+            <label>
+                Full Name
+
+                <input id="bookingName"
+                       type="text"
+                       required>
+            </label>
+
+
+            <label>
+                Company
+
+                <input id="bookingCompany"
+                       type="text">
+            </label>
+
+
+            <div class="form-row">
+
+                <label>
+                    Email
+
+                    <input id="bookingEmail"
+                           type="email"
+                           required>
+                </label>
+
+                <label>
+                    Phone
+
+                    <input id="bookingPhone"
+                           type="tel"
+                           required>
+                </label>
+
+            </div>
+
+
+            <label>
+                Project Details
+
+                <textarea id="bookingDetails"
+                          placeholder="Tell us about your construction project..."></textarea>
+
+            </label>
+
+
+            <button class="btn btn-primary full">
+                Confirm Booking
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+
+<!-- =========================================================
+     CHECKOUT MODAL
+========================================================= -->
+
+<div id="checkoutModal"
+     class="modal">
+
+    <div class="modal-content checkout">
+
+        <button class="modal-close"
+                onclick="closeModal('checkoutModal')">
+            ×
+        </button>
+
+        <div class="modal-heading">
+
+            <span class="eyebrow">
+                SECURE CHECKOUT
+            </span>
+
+            <h2>Subscribe to BuildTrackPH</h2>
+
+        </div>
+
+
+        <div class="checkout-summary">
+
+            <div>
+
+                <span id="checkoutPlan">
+                    Professional
+                </span>
+
+                <small id="checkoutCycle">
+                    Monthly Billing
+                </small>
+
+            </div>
+
+            <strong id="checkoutTotal">
+                ₱2,500
+            </strong>
+
+        </div>
+
+
+        <div class="payment-tabs">
+
+            <button class="active"
+                    onclick="paymentTab('bank',this)">
+                🏦 Banking
+            </button>
+
+            <button onclick="paymentTab('wallet',this)">
+                📱 E-Wallet
+            </button>
+
+            <button onclick="paymentTab('card',this)">
+                💳 Card
+            </button>
+
+        </div>
+
+
+        <form id="paymentForm"
+              onsubmit="processPayment(event)">
+
+            <div id="bankPayment"
+                 class="payment-panel">
+
+                <label>
+                    Select Bank
+
+                    <select id="bankName">
+
+                        <option>BDO</option>
+                        <option>BPI</option>
+                        <option>LandBank</option>
+                        <option>Metrobank</option>
+                        <option>UnionBank</option>
+
+                    </select>
+
+                </label>
+
+                <label>
+                    Reference Number
+
+                    <input id="bankReference"
+                           placeholder="Enter reference number"
+                           required>
+
+                </label>
+
+            </div>
+
+
+            <div id="walletPayment"
+                 class="payment-panel hidden">
+
+                <label>
+                    E-Wallet
+
+                    <select id="walletName">
+
+                        <option>GCash</option>
+                        <option>Maya</option>
+                        <option>GrabPay</option>
+
+                    </select>
+
+                </label>
+
+                <label>
+                    Mobile Number
+
+                    <input id="walletNumber"
+                           placeholder="09XXXXXXXXX">
+                </label>
+
+                <div class="fake-qr">
+                    QR
+                </div>
+
+            </div>
+
+
+            <div id="cardPayment"
+                 class="payment-panel hidden">
+
+                <label>
+                    Card Number
+
+                    <input id="cardNumber"
+                           placeholder="4111 1111 1111 1111">
+                </label>
+
+                <div class="form-row">
+
+                    <label>
+                        Expiry
+
+                        <input placeholder="MM/YY">
+                    </label>
+
+                    <label>
+                        CVV
+
+                        <input placeholder="123">
+                    </label>
+
+                </div>
+
+            </div>
+
+
+            <label>
+                Customer Email
+
+                <input id="paymentEmail"
+                       type="email"
+                       required>
+            </label>
+
+
+            <button class="btn btn-primary full">
+                Complete Payment
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+
+<!-- =========================================================
+     LOGIN MODAL
+========================================================= -->
+
+<div id="loginModal"
+     class="modal">
+
+    <div class="modal-content login-modal">
+
+        <button class="modal-close"
+                onclick="closeModal('loginModal')">
+            ×
+        </button>
+
+        <div class="modal-heading">
+
+            <span class="eyebrow">
+                BUILDTRACKPH ACCESS
+            </span>
+
+            <h2>Sign in</h2>
+
+        </div>
+
+        <form onsubmit="login(event)">
+
+            <label>
+                Email
+
+                <input id="loginEmail"
+                       type="email"
+                       required
+                       placeholder="you@example.com">
+
+            </label>
+
+            <label>
+                Password
+
+                <input id="loginPassword"
+                       type="password"
+                       required
+                       placeholder="Password">
+
+            </label>
+
+            <button class="btn btn-primary full">
+                Sign In
+            </button>
+
+        </form>
+
+        <div class="login-hint">
+
+            <strong>Demo Admin</strong>
+
+            <span>
+                angel@buildtrackph.com
+            </span>
+
+            <span>
+                BuildTrackPH!2026
+            </span>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- =========================================================
+     SUCCESS TOAST
+========================================================= -->
+
+<div id="toast"
+     class="toast">
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
