@@ -120,7 +120,12 @@ a {
 
 
 /* LOGO */
-
+.logo img {
+    width: 170px;
+    height: 55px;
+    object-fit: contain;
+    display: block;
+}
 .logo {
 
     display: flex;
