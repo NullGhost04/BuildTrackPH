@@ -1522,19 +1522,18 @@ nav a:hover {
 }
 
 .project-image {
-
-    min-height:
-        230px;
-
-    display:
-        grid;
-
-    place-items:
-        center;
-
-    font-size:
-        80px;
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
 }
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
 
 .residential-bg {
     background:
